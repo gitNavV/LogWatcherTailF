@@ -1,7 +1,7 @@
 # LogWatcherTailF
 A log watching server implementation similar to `tail -f` in Java.
 
-Further plan is to leverage WebSockets for client <-> server communications and Queues for logs.
+Further plan is to leverage WebSockets for client < - > server communications and Queues for logs.
 
 
 This project implements a log watching solution (similar to the `tail -f` command in UNIX). However, in this case, the log file is hosted on a remote machine (same machine as your server code). The log file is in append-only mode.
