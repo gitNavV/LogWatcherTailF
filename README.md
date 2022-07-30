@@ -20,4 +20,5 @@ Project Constraints -
 - The web page should not stay in loading state post the first load and it should not reload thereafter as well.
 - We should not use any off-the-shelf external libraries or tools to read the file or provide tail-like functionalities.
 
+Sample output with latest 10 lines from a sample log file:
 <img width="80" alt="Screenshot 2022-07-30 at 11 36 07 PM" src="https://user-images.githubusercontent.com/6997802/181936083-5b4cdb04-0580-4a15-a794-5cadacf60e4e.png">
