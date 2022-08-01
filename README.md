@@ -8,7 +8,7 @@ This project implements a log watching solution (similar to the `tail -f` comman
 
 The project implements the following:
 
-A server side program to monitor the given log file which is capable of streaming updates that happen in it. This runs on the same machine as the log file. The server is implemented in Java. It also includes functionality to fetch last 10 lines of the log file.
+A server side program to monitor the given log file which is capable of streaming updates that happen in it. This runs on the same machine as the log file. The server is implemented in Java. It also includes functionality to fetch the last 10 lines of the log file.
 
 Further plan is to include a web based client (accessible via URL like `localhost/log`) that prints the updates in the log file as and when they happen and 'NOT' upon page refresh. The page should be loaded once and it should keep getting updated in real-time. The user sees the last 10 lines in the file when he lands on the page.
 
